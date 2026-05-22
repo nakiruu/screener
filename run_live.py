@@ -37,8 +37,8 @@ CACHE_REFRESH_INTERVAL = 4 * 3600   # re-run full CANSLIM score every 4h
 
 def parse_args():
     p = argparse.ArgumentParser(description="CANSLIM Live Portfolio Monitor")
-    p.add_argument("--portfolio", required=True,
-                   help="Path to portfolio JSON (same format as run_portfolio.py)")
+    p.add_argument("--portfolio", default="portfolio/sample_portfolio.json",
+                   help="Path to portfolio JSON (default: portfolio/sample_portfolio.json)")
     p.add_argument("--interval",  type=int, default=30,
                    help="Seconds between price refreshes (default: 30)")
     p.add_argument("--once",      action="store_true",
