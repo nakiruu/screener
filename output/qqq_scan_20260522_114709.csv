@@ -1,0 +1,2 @@
+ticker,composite,signal,C_score,A_score,N_score,S_score,L_score,I_score,M_score,breakout_pct,base_pivot,rs_pct,dist_from_hi,C_eps_growth,A_cagr,A_roe,inst_pct,price,sector,industry,error
+SNDK,71.4,MONITOR,25.0,19.0,2.94,1.44,15.0,3.0,5.0,7.122320104201951,1439.699951171875,100.0,0.012865302063359771,1.3139732221515246,19.878435306757005,0.39297,0.80781996,1542.24,Technology,Computer Hardware,

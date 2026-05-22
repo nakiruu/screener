@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "run_time": "2026-05-22T11:47:09.777689",
+    "elapsed_s": 0.346106,
+    "total_tickers": 1,
+    "valid_results": 1,
+    "errors": [],
+    "market": {
+      "_cached_at": 1779448332.3138728,
+      "M_score": 5.0,
+      "gate_open": true,
+      "dist_days": 4,
+      "trend_20": 0.1460472940224984,
+      "trend_50": 0.27338948416037745,
+      "above_50ma": true,
+      "above_200ma": true,
+      "market_note": "Confirmed uptrend"
+    },
+    "args": {
+      "top": null,
+      "min_score": 0,
+      "output": "all",
+      "refresh": false,
+      "ticker": "SNDK",
+      "workers": 6,
+      "period": "6mo",
+      "quiet": false
+    }
+  },
+  "results": [
+    {
+      "ticker": "SNDK",
+      "error": null,
+      "C_score": 25.0,
+      "C_eps_growth": 1.3139732221515246,
+      "C_method": "price_proxy_3mo",
+      "A_score": 19.0,
+      "A_cagr": 19.878435306757005,
+      "A_roe": 0.39297,
+      "N_score": 2.94,
+      "S_score": 1.44,
+      "breakout_pct": 7.122320104201951,
+      "base_pivot": 1439.699951171875,
+      "L_score": 15.0,
+      "rs_pct": 100.0,
+      "dist_from_hi": 0.012865302063359771,
+      "I_score": 3.0,
+      "inst_pct": 0.80781996,
+      "M_score": 5.0,
+      "composite": 71.4,
+      "price": 1542.24,
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "signal": "MONITOR",
+      "_mom_raw": 5.7952059596945045
+    }
+  ]
+}
