@@ -1,9 +1,15 @@
 {
   "positions": [
     {
-      "ticker": "INTC",
-      "shares": 0.55,
-      "cost_basis": 119.55,
+      "ticker": "MRVL",
+      "shares": 0.138,
+      "cost_basis": 196.96,
+      "date_opened": "2026-05-22"
+    },
+    {
+      "ticker": "PSCT",
+      "shares": 0.976,
+      "cost_basis": 83.21,
       "date_opened": "2026-05-22"
     }
   ]
