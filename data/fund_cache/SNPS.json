@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443102.9075377,
+  "ticker": "SNPS",
+  "C_score": 13.0,
+  "A_score": 4.5,
+  "I_score": 3.0,
+  "eps_growth": 0.19761418709837897,
+  "eps_cagr": 0.0004965440425533929,
+  "roe": null,
+  "inst_pct": null,
+  "price": 503.98,
+  "sector": "Unknown",
+  "industry": "Unknown",
+  "method": "price_proxy_3mo",
+  "M_score": 4.0
+}

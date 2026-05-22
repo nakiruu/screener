@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443089.6669798,
+  "ticker": "EXC",
+  "C_score": 4.0,
+  "A_score": 1.0,
+  "I_score": 2.0,
+  "eps_growth": 0.012,
+  "eps_cagr": -0.003,
+  "roe": 0.09764,
+  "inst_pct": 0.95203,
+  "price": 45.35,
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

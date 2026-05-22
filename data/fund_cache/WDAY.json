@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443105.947766,
+  "ticker": "WDAY",
+  "C_score": 21.0,
+  "A_score": 16.0,
+  "I_score": 1.0,
+  "eps_growth": 0.543,
+  "eps_cagr": 0.629,
+  "roe": 0.08231,
+  "inst_pct": 1.0274,
+  "price": 121.85,
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443083.554231,
+  "ticker": "APP",
+  "C_score": 25.0,
+  "A_score": 20,
+  "I_score": 5.0,
+  "eps_growth": 1.092,
+  "eps_cagr": 1.131,
+  "roe": 2.66444,
+  "inst_pct": 0.75171995,
+  "price": 485.89,
+  "sector": "Communication Services",
+  "industry": "Advertising Agencies",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

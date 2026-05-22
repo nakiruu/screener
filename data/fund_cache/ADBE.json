@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443081.3123307,
+  "ticker": "ADBE",
+  "C_score": 4.0,
+  "A_score": 10.0,
+  "I_score": 3.0,
+  "eps_growth": 0.043,
+  "eps_cagr": 0.111,
+  "roe": 0.58774,
+  "inst_pct": 0.86273,
+  "price": 244.1,
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

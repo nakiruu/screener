@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443106.3161983,
+  "ticker": "XEL",
+  "C_score": 2.0,
+  "A_score": 7.5,
+  "I_score": 3.0,
+  "eps_growth": -0.030680262749739673,
+  "eps_cagr": 0.09772293835682644,
+  "roe": null,
+  "inst_pct": null,
+  "price": 80.2,
+  "sector": "Unknown",
+  "industry": "Unknown",
+  "method": "price_proxy_3mo",
+  "M_score": 4.0
+}

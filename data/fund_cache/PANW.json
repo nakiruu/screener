@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443099.2644372,
+  "ticker": "PANW",
+  "C_score": 21.0,
+  "A_score": 17.0,
+  "I_score": 3.0,
+  "eps_growth": 0.618,
+  "eps_cagr": 0.605,
+  "roe": 0.16259001,
+  "inst_pct": 0.83676004,
+  "price": 252.92,
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

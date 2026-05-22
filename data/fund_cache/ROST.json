@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443102.0044763,
+  "ticker": "ROST",
+  "C_score": 8.0,
+  "A_score": 9.0,
+  "I_score": 2.0,
+  "eps_growth": 0.101,
+  "eps_cagr": 0.118,
+  "roe": 0.36678,
+  "inst_pct": 0.94343,
+  "price": 217.19,
+  "sector": "Consumer Cyclical",
+  "industry": "Apparel Retail",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

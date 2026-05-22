@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443098.8336377,
+  "ticker": "ODFL",
+  "C_score": 2.0,
+  "A_score": 3.0,
+  "I_score": 3.0,
+  "eps_growth": -0.064,
+  "eps_cagr": -0.042,
+  "roe": 0.23331,
+  "inst_pct": 0.82846,
+  "price": 207.69,
+  "sector": "Industrials",
+  "industry": "Trucking",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

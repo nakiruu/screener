@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443082.2738981,
+  "ticker": "ALNY",
+  "C_score": 2.0,
+  "A_score": 7.0,
+  "I_score": 1.0,
+  "eps_growth": -0.08756640596152332,
+  "eps_cagr": 0.01991351170523359,
+  "roe": 0.90356004,
+  "inst_pct": 1.02158,
+  "price": 300.51,
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "method": "price_proxy_3mo",
+  "M_score": 4.0
+}

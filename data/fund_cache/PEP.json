@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443100.3022244,
+  "ticker": "PEP",
+  "C_score": 17.0,
+  "A_score": 16.0,
+  "I_score": 3.0,
+  "eps_growth": 0.269,
+  "eps_cagr": 0.278,
+  "roe": 0.43879002,
+  "inst_pct": 0.80982,
+  "price": 148.85,
+  "sector": "Consumer Defensive",
+  "industry": "Beverages - Non-Alcoholic",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

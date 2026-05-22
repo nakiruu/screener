@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443104.9593146,
+  "ticker": "TTWO",
+  "C_score": 13.0,
+  "A_score": 2.0,
+  "I_score": 2.0,
+  "eps_growth": 0.21724017735426848,
+  "eps_cagr": 0.026702375155036928,
+  "roe": -0.86217004,
+  "inst_pct": 0.94056,
+  "price": 238.08,
+  "sector": "Communication Services",
+  "industry": "Electronic Gaming & Multimedia",
+  "method": "price_proxy_3mo",
+  "M_score": 4.0
+}

@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443097.1396132,
+  "ticker": "MSTR",
+  "C_score": 17.0,
+  "A_score": 0.0,
+  "I_score": 5.0,
+  "eps_growth": 0.33255199517826695,
+  "eps_cagr": -0.29365892751482964,
+  "roe": -0.30756,
+  "inst_pct": 0.64136004,
+  "price": 164.85,
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "method": "price_proxy_3mo",
+  "M_score": 4.0
+}

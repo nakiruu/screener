@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443093.1434884,
+  "ticker": "ISRG",
+  "C_score": 13.0,
+  "A_score": 11.0,
+  "I_score": 3.0,
+  "eps_growth": 0.176,
+  "eps_cagr": 0.188,
+  "roe": 0.17232999,
+  "inst_pct": 0.89368,
+  "price": 439.8,
+  "sector": "Healthcare",
+  "industry": "Medical Instruments & Supplies",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

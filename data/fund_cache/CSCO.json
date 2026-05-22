@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443087.3363678,
+  "ticker": "CSCO",
+  "C_score": 19.0,
+  "A_score": 17.0,
+  "I_score": 3.0,
+  "eps_growth": 0.354,
+  "eps_cagr": 0.371,
+  "roe": 0.25229,
+  "inst_pct": 0.82989,
+  "price": 118.2,
+  "sector": "Technology",
+  "industry": "Communication Equipment",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

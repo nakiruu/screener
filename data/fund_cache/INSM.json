@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443092.5988433,
+  "ticker": "INSM",
+  "C_score": 0.0,
+  "A_score": 11.0,
+  "I_score": 1.0,
+  "eps_growth": -0.31126202842204953,
+  "eps_cagr": 0.32776596672126557,
+  "roe": -2.9446201,
+  "inst_pct": 1.05281,
+  "price": 109.53,
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "method": "price_proxy_3mo",
+  "M_score": 4.0
+}

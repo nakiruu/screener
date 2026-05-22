@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443096.5425696,
+  "ticker": "MRVL",
+  "C_score": 23.0,
+  "A_score": 18.0,
+  "I_score": 3.0,
+  "eps_growth": 0.979,
+  "eps_cagr": 1.063,
+  "roe": 0.19253999,
+  "inst_pct": 0.85456,
+  "price": 190.69,
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

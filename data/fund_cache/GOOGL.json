@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443091.9133565,
+  "ticker": "GOOGL",
+  "C_score": 23.0,
+  "A_score": 19.0,
+  "I_score": 3.0,
+  "eps_growth": 0.812,
+  "eps_cagr": 0.82,
+  "roe": 0.38884997,
+  "inst_pct": 0.81268,
+  "price": 387.66,
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

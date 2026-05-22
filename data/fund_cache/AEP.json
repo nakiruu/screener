@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443081.9790719,
+  "ticker": "AEP",
+  "C_score": 8.0,
+  "A_score": 7.0,
+  "I_score": 3.0,
+  "eps_growth": 0.093,
+  "eps_cagr": 0.067,
+  "roe": 0.12585,
+  "inst_pct": 0.82348,
+  "price": 129.61,
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443096.364099,
+  "ticker": "MPWR",
+  "C_score": 19.0,
+  "A_score": 16.0,
+  "I_score": 1.0,
+  "eps_growth": 0.431,
+  "eps_cagr": 0.395,
+  "roe": 0.19574,
+  "inst_pct": 1.00952,
+  "price": 1561.25,
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

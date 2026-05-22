@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443087.9181285,
+  "ticker": "CTAS",
+  "C_score": 8.0,
+  "A_score": 10.0,
+  "I_score": 5.0,
+  "eps_growth": 0.084,
+  "eps_cagr": 0.097,
+  "roe": 0.41303003,
+  "inst_pct": 0.69352996,
+  "price": 172.36,
+  "sector": "Industrials",
+  "industry": "Specialty Business Services",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443100.019518,
+  "ticker": "PDD",
+  "C_score": 0.0,
+  "A_score": 4.0,
+  "I_score": 2.5,
+  "eps_growth": -0.161,
+  "eps_cagr": -0.164,
+  "roe": 0.26928,
+  "inst_pct": 0.3188,
+  "price": 97.79,
+  "sector": "Consumer Cyclical",
+  "industry": "Internet Retail",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

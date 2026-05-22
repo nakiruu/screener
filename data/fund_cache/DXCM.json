@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443088.9498556,
+  "ticker": "DXCM",
+  "C_score": 23.0,
+  "A_score": 19.0,
+  "I_score": 1.0,
+  "eps_growth": 0.893,
+  "eps_cagr": 0.922,
+  "roe": 0.35624,
+  "inst_pct": 1.02687,
+  "price": 71.9,
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

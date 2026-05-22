@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443106.0807543,
+  "ticker": "WDC",
+  "C_score": 25.0,
+  "A_score": 20,
+  "I_score": 1.0,
+  "eps_growth": 5.163,
+  "eps_cagr": 4.829,
+  "roe": 0.85920995,
+  "inst_pct": 1.01406,
+  "price": 486.46,
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

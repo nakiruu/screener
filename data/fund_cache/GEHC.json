@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443091.0118265,
+  "ticker": "GEHC",
+  "C_score": 0.0,
+  "A_score": 3.0,
+  "I_score": 2.0,
+  "eps_growth": -0.31,
+  "eps_cagr": -0.309,
+  "roe": 0.19462,
+  "inst_pct": 0.91804004,
+  "price": 64.33,
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443105.5075855,
+  "ticker": "VRTX",
+  "C_score": 21.0,
+  "A_score": 18.0,
+  "I_score": 2.0,
+  "eps_growth": 0.596,
+  "eps_cagr": 0.614,
+  "roe": 0.24197,
+  "inst_pct": 0.98013,
+  "price": 433.54,
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

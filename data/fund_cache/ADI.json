@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443081.3136349,
+  "ticker": "ADI",
+  "C_score": 25.0,
+  "A_score": 16.0,
+  "I_score": 2.0,
+  "eps_growth": 1.065,
+  "eps_cagr": 1.105,
+  "roe": 0.09639,
+  "inst_pct": 0.93676,
+  "price": 384.21,
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

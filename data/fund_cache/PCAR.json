@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443099.7645817,
+  "ticker": "PCAR",
+  "C_score": 13.0,
+  "A_score": 10.0,
+  "I_score": 5.0,
+  "eps_growth": 0.198,
+  "eps_cagr": 0.197,
+  "roe": 0.13108,
+  "inst_pct": 0.758,
+  "price": 109.34,
+  "sector": "Industrials",
+  "industry": "Farm & Heavy Construction Machinery",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779443103.8003907,
+  "ticker": "TRI",
+  "C_score": 8.0,
+  "A_score": 7.0,
+  "I_score": 1.5,
+  "eps_growth": 0.058,
+  "eps_cagr": 0.056,
+  "roe": 0.12734,
+  "inst_pct": 0.28464,
+  "price": 85.56,
+  "sector": "Industrials",
+  "industry": "Specialty Business Services",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}
