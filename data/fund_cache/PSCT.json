@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1779475513.0939686,
+  "ticker": "PSCT",
+  "C_score": 19.0,
+  "A_score": 15.5,
+  "I_score": 3.0,
+  "eps_growth": 0.368473119484916,
+  "eps_cagr": 0.47083136155974037,
+  "roe": null,
+  "inst_pct": null,
+  "price": 83.08,
+  "sector": "Unknown",
+  "industry": "Unknown",
+  "method": "price_proxy_3mo",
+  "M_score": 4.0
+}
