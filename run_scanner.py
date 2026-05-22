@@ -61,7 +61,7 @@ import pandas as pd
 
 from scanners.qqq_holdings import get_qqq_holdings
 from scanners.fundamental  import score_fundamentals
-from scanners.technical    import score_technical
+from scanners.technical    import score_technical, score_L_from_ranks
 from scanners.market_gate  import score_market
 from models.scorer         import build_composite_score, SCORE_TIERS, M_MAX
 from output.report         import build_html_report
@@ -140,6 +140,7 @@ def process_ticker(ticker: str, period: str, refresh: bool, quiet: bool) -> dict
             "L_score":      tech["L_score"],
             "rs_pct":       tech.get("rs_pct"),
             "dist_from_hi": tech.get("dist_from_hi"),
+            "_mom_raw":     tech.get("_mom_raw", 0.0),
         })
 
         # ── Market gate (M) ───────────────────────────────────
@@ -297,6 +298,13 @@ def main():
                 results.append(r)
                 if r["error"]:
                     errors.append(r["ticker"])
+
+    # ── RS cross-sectional ranking (second pass) ─────────────
+    results = score_L_from_ranks(results)
+    for r in results:
+        if not r.get("error"):
+            r["composite"] = build_composite_score(r)
+            r["signal"]    = _signal(r["composite"])
 
     # ── Sort & filter ─────────────────────────────────────────
     results.sort(key=lambda r: -r["composite"])
