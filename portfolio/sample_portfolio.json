@@ -5,6 +5,12 @@
       "shares": 0.36,
       "cost_basis": 251.11,
       "date_opened": "2026-05-22"
+    },
+    {
+      "ticker": "INTC",
+      "shares": 0.55,
+      "cost_basis": 118.87,
+      "date_opened": "2026-05-22"
     }
   ]
 }
