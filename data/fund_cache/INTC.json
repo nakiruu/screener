@@ -1,17 +1,16 @@
 {
-  "_cached_at": 1779443092.8435128,
+  "_cached_at": 1779443427.4144464,
   "ticker": "INTC",
-  "C_score": 0.0,
-  "A_score": 0.0,
+  "C_score": 25.0,
+  "A_score": 17.5,
   "I_score": 3.0,
-  "eps_growth": null,
-  "eps_cagr": null,
+  "eps_growth": 1.7160210199169508,
+  "eps_cagr": 2.383211785874259,
   "roe": null,
   "inst_pct": null,
-  "price": null,
-  "sector": null,
-  "industry": null,
-  "method": "unknown",
-  "M_score": 4.0,
-  "_error": "argument of type 'NoneType' is not iterable"
+  "price": 118.5,
+  "sector": "Unknown",
+  "industry": "Unknown",
+  "method": "price_proxy_3mo",
+  "M_score": 4.0
 }
