@@ -1,3 +1,15 @@
 *.pyc
 __pycache__/
 .pytest_cache/
+
+# Runtime cache files
+data/fund_cache/
+data/tech_cache/
+data/price_cache/
+data/qqq_holdings_cache.json
+data/market_gate_cache.json
+
+# Scan output artifacts
+output/qqq_scan_*.html
+output/qqq_scan_*.json
+output/qqq_scan_*.csv
