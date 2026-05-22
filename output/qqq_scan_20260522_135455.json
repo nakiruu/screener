@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "run_time": "2026-05-22T13:54:55.650340",
+    "elapsed_s": 14.429106,
+    "total_tickers": 101,
+    "valid_results": 1,
+    "errors": [],
+    "market": {
+      "_cached_at": 1779457199.9645252,
+      "M_score": 5.0,
+      "gate_open": true,
+      "dist_days": 4,
+      "trend_20": 0.13038321826544275,
+      "trend_50": 0.31554840337192536,
+      "above_50ma": true,
+      "above_200ma": true,
+      "market_note": "Confirmed uptrend"
+    },
+    "args": {
+      "top": null,
+      "min_score": 72.0,
+      "output": "json",
+      "refresh": false,
+      "ticker": null,
+      "workers": 6,
+      "period": "6mo",
+      "quiet": false
+    }
+  },
+  "results": [
+    {
+      "ticker": "ARM",
+      "error": null,
+      "C_score": 25.0,
+      "C_eps_growth": 1.4093554203218277,
+      "C_method": "price_proxy_3mo",
+      "A_score": 17.5,
+      "A_cagr": 0.6534267241735432,
+      "A_roe": null,
+      "N_score": 6.84,
+      "S_score": 5.34,
+      "breakout_pct": 26.350724572677443,
+      "base_pivot": 239.5,
+      "L_score": 14.0,
+      "rs_pct": 93.06930693069307,
+      "dist_from_hi": 0.0,
+      "I_score": 3.0,
+      "inst_pct": null,
+      "M_score": 5.0,
+      "composite": 76.7,
+      "price": 298.23,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "signal": "WATCH",
+      "_mom_raw": 1.2463808942889134
+    }
+  ]
+}
