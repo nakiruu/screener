@@ -42,6 +42,12 @@
       "ticker": "CRWD",
       "shares": 25,
       "cost_basis": 400.00
+    },
+    {
+      "ticker": "DDOG",
+      "shares": 0.3,
+      "cost_basis": 211.50,
+      "date_opened": "2026-05-21"
     }
   ]
 }
