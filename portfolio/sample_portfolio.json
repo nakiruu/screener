@@ -1,0 +1,47 @@
+{
+  "positions": [
+    {
+      "ticker": "NVDA",
+      "shares": 50,
+      "cost_basis": 850.00,
+      "options": [
+        {
+          "type": "call",
+          "strike": 950.00,
+          "contracts": 1,
+          "expiry": "2026-06-20",
+          "premium_paid": 45.00
+        }
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "shares": 200,
+      "cost_basis": 72.50
+    },
+    {
+      "ticker": "MU",
+      "shares": 150,
+      "cost_basis": 95.00,
+      "options": [
+        {
+          "type": "put",
+          "strike": 90.00,
+          "contracts": 1,
+          "expiry": "2026-07-18",
+          "premium_paid": 4.50
+        }
+      ]
+    },
+    {
+      "ticker": "PANW",
+      "shares": 30,
+      "cost_basis": 185.00
+    },
+    {
+      "ticker": "CRWD",
+      "shares": 25,
+      "cost_basis": 400.00
+    }
+  ]
+}
