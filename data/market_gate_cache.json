@@ -1,10 +1,10 @@
 {
-  "_cached_at": 1779475506.2728062,
+  "_cached_at": 1779802785.2855792,
   "M_score": 5.0,
   "gate_open": true,
   "dist_days": 4,
-  "trend_20": 0.13066407064718333,
-  "trend_50": 0.31587526146430656,
+  "trend_20": 0.14031262223090568,
+  "trend_50": 0.3401144402532357,
   "above_50ma": true,
   "above_200ma": true,
   "market_note": "Confirmed uptrend"
