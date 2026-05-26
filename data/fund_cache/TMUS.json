@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1779443433.6828554,
+  "_cached_at": 1779802917.2693708,
   "ticker": "TMUS",
   "C_score": 0.0,
   "A_score": 3.0,
@@ -7,8 +7,8 @@
   "eps_growth": -0.152,
   "eps_cagr": -0.12,
   "roe": 0.18024999,
-  "inst_pct": 0.43916,
-  "price": 190.9,
+  "inst_pct": 0.43820998,
+  "price": 190.07,
   "sector": "Communication Services",
   "industry": "Telecom Services",
   "method": "yfinance_quarterly",

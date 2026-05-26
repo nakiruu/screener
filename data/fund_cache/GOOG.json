@@ -1,17 +1,16 @@
 {
-  "_cached_at": 1779443426.7165248,
+  "_cached_at": 1779802909.6250398,
   "ticker": "GOOG",
-  "C_score": 0.0,
-  "A_score": 0.0,
+  "C_score": 13.0,
+  "A_score": 17.5,
   "I_score": 3.0,
-  "eps_growth": null,
-  "eps_cagr": null,
+  "eps_growth": 0.241095047867256,
+  "eps_cagr": 0.5985484838908035,
   "roe": null,
   "inst_pct": null,
-  "price": null,
-  "sector": null,
-  "industry": null,
-  "method": "unknown",
-  "M_score": 4.0,
-  "_error": "argument of type 'NoneType' is not iterable"
+  "price": 380.94,
+  "sector": "Unknown",
+  "industry": "Unknown",
+  "method": "price_proxy_3mo",
+  "M_score": 4.0
 }

@@ -1,17 +1,16 @@
 {
-  "_cached_at": 1779443422.3599043,
+  "_cached_at": 1779802904.4309392,
   "ticker": "APP",
-  "C_score": 0.0,
-  "A_score": 0.0,
+  "C_score": 13.0,
+  "A_score": 10.5,
   "I_score": 3.0,
-  "eps_growth": null,
-  "eps_cagr": null,
+  "eps_growth": 0.17303843638717642,
+  "eps_cagr": 0.1850568502151837,
   "roe": null,
   "inst_pct": null,
-  "price": null,
-  "sector": null,
-  "industry": null,
-  "method": "unknown",
-  "M_score": 4.0,
-  "_error": "argument of type 'NoneType' is not iterable"
+  "price": 521.89,
+  "sector": "Unknown",
+  "industry": "Unknown",
+  "method": "price_proxy_3mo",
+  "M_score": 4.0
 }

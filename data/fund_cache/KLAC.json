@@ -1,16 +1,17 @@
 {
-  "_cached_at": 1779443428.2945504,
+  "_cached_at": 1779802911.1905239,
   "ticker": "KLAC",
-  "C_score": 13.0,
-  "A_score": 17.5,
+  "C_score": 0.0,
+  "A_score": 0.0,
   "I_score": 3.0,
-  "eps_growth": 0.23988766758992575,
-  "eps_cagr": 0.7078363856579415,
+  "eps_growth": null,
+  "eps_cagr": null,
   "roe": null,
   "inst_pct": null,
-  "price": 1842.18,
-  "sector": "Unknown",
-  "industry": "Unknown",
-  "method": "price_proxy_3mo",
-  "M_score": 4.0
+  "price": null,
+  "sector": null,
+  "industry": null,
+  "method": "unknown",
+  "M_score": 4.0,
+  "_error": "argument of type 'NoneType' is not iterable"
 }

@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1779443426.9697578,
+  "_cached_at": 1779802909.8807561,
   "ticker": "HON",
   "C_score": 0.0,
   "A_score": 3.0,
@@ -7,8 +7,8 @@
   "eps_growth": -0.433,
   "eps_cagr": -0.419,
   "roe": 0.24264,
-  "inst_pct": 0.81864,
-  "price": 223.8,
+  "inst_pct": 0.81712997,
+  "price": 231.62,
   "sector": "Industrials",
   "industry": "Conglomerates",
   "method": "yfinance_quarterly",
