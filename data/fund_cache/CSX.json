@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1779802907.221279,
+  "_cached_at": 1779889676.4332695,
   "ticker": "CSX",
   "C_score": 13.0,
   "A_score": 14.0,
@@ -7,8 +7,8 @@
   "eps_growth": 0.249,
   "eps_cagr": 0.265,
   "roe": 0.23684,
-  "inst_pct": 0.82005996,
-  "price": 46.04,
+  "inst_pct": 0.82005,
+  "price": 47.03,
   "sector": "Industrials",
   "industry": "Railroads",
   "method": "yfinance_quarterly",

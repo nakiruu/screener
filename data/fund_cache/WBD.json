@@ -1,17 +1,16 @@
 {
-  "_cached_at": 1779802918.3915734,
+  "_cached_at": 1779889688.0833876,
   "ticker": "WBD",
-  "C_score": 0.0,
-  "A_score": 0.0,
+  "C_score": 2.0,
+  "A_score": 17.5,
   "I_score": 3.0,
-  "eps_growth": null,
-  "eps_cagr": null,
+  "eps_growth": -0.037628663935802,
+  "eps_cagr": 0.9193717313562417,
   "roe": null,
   "inst_pct": null,
-  "price": null,
-  "sector": null,
-  "industry": null,
-  "method": "unknown",
-  "M_score": 4.0,
-  "_error": "argument of type 'NoneType' is not iterable"
+  "price": 27.11,
+  "sector": "Unknown",
+  "industry": "Unknown",
+  "method": "price_proxy_3mo",
+  "M_score": 4.0
 }

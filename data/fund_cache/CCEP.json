@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1779802905.667986,
+  "_cached_at": 1779889675.1632404,
   "ticker": "CCEP",
   "C_score": 21.0,
   "A_score": 18.0,
@@ -7,8 +7,8 @@
   "eps_growth": 0.657,
   "eps_cagr": 0.683,
   "roe": 0.22894,
-  "inst_pct": 0.38518003,
-  "price": 94.035,
+  "inst_pct": 0.38519,
+  "price": 94.68,
   "sector": "Consumer Defensive",
   "industry": "Beverages - Non-Alcoholic",
   "method": "yfinance_quarterly",

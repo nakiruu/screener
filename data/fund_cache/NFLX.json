@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1779802913.750317,
+  "_cached_at": 1779889683.4478607,
   "ticker": "NFLX",
   "C_score": 23.0,
   "A_score": 20,
@@ -7,8 +7,8 @@
   "eps_growth": 0.828,
   "eps_cagr": 0.864,
   "roe": 0.48494998,
-  "inst_pct": 0.84990996,
-  "price": 87.82,
+  "inst_pct": 0.84988,
+  "price": 87.91,
   "sector": "Communication Services",
   "industry": "Entertainment",
   "method": "yfinance_quarterly",

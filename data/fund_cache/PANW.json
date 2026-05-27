@@ -1,16 +1,17 @@
 {
-  "_cached_at": 1779802914.6412888,
+  "_cached_at": 1779889684.1134405,
   "ticker": "PANW",
-  "C_score": 21.0,
-  "A_score": 10.5,
+  "C_score": 0.0,
+  "A_score": 0.0,
   "I_score": 3.0,
-  "eps_growth": 0.7004686307268719,
-  "eps_cagr": 0.1776112075988865,
+  "eps_growth": null,
+  "eps_cagr": null,
   "roe": null,
   "inst_pct": null,
-  "price": 254.05,
-  "sector": "Unknown",
-  "industry": "Unknown",
-  "method": "price_proxy_3mo",
-  "M_score": 4.0
+  "price": null,
+  "sector": null,
+  "industry": null,
+  "method": "unknown",
+  "M_score": 4.0,
+  "_error": "argument of type 'NoneType' is not iterable"
 }

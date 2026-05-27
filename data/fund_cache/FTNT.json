@@ -1,17 +1,16 @@
 {
-  "_cached_at": 1779802908.9365299,
+  "_cached_at": 1779889678.6487565,
   "ticker": "FTNT",
-  "C_score": 0.0,
-  "A_score": 0.0,
+  "C_score": 21.0,
+  "A_score": 7.5,
   "I_score": 3.0,
-  "eps_growth": null,
-  "eps_cagr": null,
+  "eps_growth": 0.6376693034400336,
+  "eps_cagr": 0.1178394390464611,
   "roe": null,
   "inst_pct": null,
-  "price": null,
-  "sector": null,
-  "industry": null,
-  "method": "unknown",
-  "M_score": 4.0,
-  "_error": "argument of type 'NoneType' is not iterable"
+  "price": 129.425,
+  "sector": "Unknown",
+  "industry": "Unknown",
+  "method": "price_proxy_3mo",
+  "M_score": 4.0
 }

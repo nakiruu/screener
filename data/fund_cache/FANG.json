@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1779802908.6398146,
+  "_cached_at": 1779889678.1018474,
   "ticker": "FANG",
   "C_score": 0.0,
   "A_score": 1.0,
@@ -7,8 +7,8 @@
   "eps_growth": -0.982,
   "eps_cagr": -0.984,
   "roe": 0.0047400002,
-  "inst_pct": 0.70235,
-  "price": 199.935,
+  "inst_pct": 0.70238996,
+  "price": 193.095,
   "sector": "Energy",
   "industry": "Oil & Gas E&P",
   "method": "yfinance_quarterly",

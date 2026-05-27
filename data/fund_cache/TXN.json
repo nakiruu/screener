@@ -1,16 +1,17 @@
 {
-  "_cached_at": 1779802917.9745386,
+  "_cached_at": 1779889687.5081143,
   "ticker": "TXN",
-  "C_score": 21.0,
-  "A_score": 15.5,
+  "C_score": 0.0,
+  "A_score": 0.0,
   "I_score": 3.0,
-  "eps_growth": 0.524273477666733,
-  "eps_cagr": 0.4045856423543621,
+  "eps_growth": null,
+  "eps_cagr": null,
   "roe": null,
   "inst_pct": null,
-  "price": 322.4678,
-  "sector": "Unknown",
-  "industry": "Unknown",
-  "method": "price_proxy_3mo",
-  "M_score": 4.0
+  "price": null,
+  "sector": null,
+  "industry": null,
+  "method": "unknown",
+  "M_score": 4.0,
+  "_error": "argument of type 'NoneType' is not iterable"
 }

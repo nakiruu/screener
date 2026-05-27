@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1779802904.8907294,
+  "_cached_at": 1779889674.5611935,
   "ticker": "AVGO",
   "C_score": 17.0,
   "A_score": 15.0,
@@ -8,7 +8,7 @@
   "eps_cagr": 0.316,
   "roe": 0.33370999,
   "inst_pct": 0.80160004,
-  "price": 423.93,
+  "price": 423.04,
   "sector": "Technology",
   "industry": "Semiconductors",
   "method": "yfinance_quarterly",

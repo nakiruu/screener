@@ -1,16 +1,17 @@
 {
-  "_cached_at": 1779802906.1063704,
+  "_cached_at": 1779889675.6486037,
   "ticker": "CHTR",
   "C_score": 0.0,
-  "A_score": 2.5,
+  "A_score": 0.0,
   "I_score": 3.0,
-  "eps_growth": -0.3665382473252021,
-  "eps_cagr": -0.32405808813421233,
+  "eps_growth": null,
+  "eps_cagr": null,
   "roe": null,
   "inst_pct": null,
-  "price": 144.67,
-  "sector": "Unknown",
-  "industry": "Unknown",
-  "method": "price_proxy_3mo",
-  "M_score": 4.0
+  "price": null,
+  "sector": null,
+  "industry": null,
+  "method": "unknown",
+  "M_score": 4.0,
+  "_error": "argument of type 'NoneType' is not iterable"
 }
