@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1779889673.2355502,
+  "_cached_at": 1780013776.1996741,
   "ticker": "AMD",
   "C_score": 23.0,
   "A_score": 16.0,
@@ -7,8 +7,8 @@
   "eps_growth": 0.951,
   "eps_cagr": 0.912,
   "roe": 0.08063,
-  "inst_pct": 0.72102,
-  "price": 491.6,
+  "inst_pct": 0.72103995,
+  "price": 518.09,
   "sector": "Technology",
   "industry": "Semiconductors",
   "method": "yfinance_quarterly",

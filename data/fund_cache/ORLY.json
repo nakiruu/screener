@@ -1,17 +1,16 @@
 {
-  "_cached_at": 1779889684.0211735,
+  "_cached_at": 1780013785.3711588,
   "ticker": "ORLY",
-  "C_score": 0.0,
-  "A_score": 0.0,
+  "C_score": 8.0,
+  "A_score": 10.5,
   "I_score": 3.0,
-  "eps_growth": null,
-  "eps_cagr": null,
+  "eps_growth": 0.122,
+  "eps_cagr": 0.161,
   "roe": null,
-  "inst_pct": null,
-  "price": null,
-  "sector": null,
-  "industry": null,
-  "method": "unknown",
-  "M_score": 4.0,
-  "_error": "argument of type 'NoneType' is not iterable"
+  "inst_pct": 0.89398,
+  "price": 89.23,
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
 }

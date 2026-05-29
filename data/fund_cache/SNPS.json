@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1779889686.5309026,
+  "_cached_at": 1780013787.4895449,
   "ticker": "SNPS",
   "C_score": 0.0,
   "A_score": 1.0,
@@ -8,7 +8,7 @@
   "eps_cagr": -0.82,
   "roe": 0.055430003,
   "inst_pct": 0.90855,
-  "price": 532.68,
+  "price": 480.64,
   "sector": "Technology",
   "industry": "Software - Infrastructure",
   "method": "yfinance_quarterly",

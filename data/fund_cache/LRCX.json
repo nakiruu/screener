@@ -1,16 +1,17 @@
 {
-  "_cached_at": 1779889681.3957033,
+  "_cached_at": 1780013782.754825,
   "ticker": "LRCX",
-  "C_score": 19.0,
-  "A_score": 17.5,
+  "C_score": 0.0,
+  "A_score": 0.0,
   "I_score": 3.0,
-  "eps_growth": 0.35899516338216286,
-  "eps_cagr": 1.4049389236942849,
+  "eps_growth": null,
+  "eps_cagr": null,
   "roe": null,
   "inst_pct": null,
-  "price": 317.475,
-  "sector": "Unknown",
-  "industry": "Unknown",
-  "method": "price_proxy_3mo",
-  "M_score": 4.0
+  "price": null,
+  "sector": null,
+  "industry": null,
+  "method": "unknown",
+  "M_score": 4.0,
+  "_error": "argument of type 'NoneType' is not iterable"
 }

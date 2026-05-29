@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1779889673.7732725,
+  "_cached_at": 1780013776.5606072,
   "ticker": "AMZN",
   "C_score": 23.0,
   "A_score": 18.0,
@@ -7,8 +7,8 @@
   "eps_growth": 0.767,
   "eps_cagr": 0.748,
   "roe": 0.24285,
-  "inst_pct": 0.67981005,
-  "price": 267.71,
+  "inst_pct": 0.67982,
+  "price": 274.0,
   "sector": "Consumer Cyclical",
   "industry": "Internet Retail",
   "method": "yfinance_quarterly",

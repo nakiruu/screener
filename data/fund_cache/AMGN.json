@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1779889673.6553416,
+  "_cached_at": 1780013776.3814456,
   "ticker": "AMGN",
   "C_score": 8.0,
   "A_score": 7.0,
@@ -7,8 +7,8 @@
   "eps_growth": 0.051,
   "eps_cagr": 0.044,
   "roe": 1.01318,
-  "inst_pct": 0.85253,
-  "price": 341.03,
+  "inst_pct": 0.85256,
+  "price": 336.48,
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - General",
   "method": "yfinance_quarterly",

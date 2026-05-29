@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1779889684.9334824,
+  "_cached_at": 1780013786.213488,
   "ticker": "PYPL",
   "C_score": 0.0,
   "A_score": 4.0,
@@ -7,8 +7,8 @@
   "eps_growth": -0.135,
   "eps_cagr": -0.062,
   "roe": 0.25120002,
-  "inst_pct": 0.80035,
-  "price": 44.43,
+  "inst_pct": 0.80027,
+  "price": 44.46,
   "sector": "Financial Services",
   "industry": "Credit Services",
   "method": "yfinance_quarterly",

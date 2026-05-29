@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1779889683.2204192,
+  "_cached_at": 1780013784.5390265,
   "ticker": "MU",
   "C_score": 25.0,
   "A_score": 19.0,
@@ -8,7 +8,7 @@
   "eps_cagr": 7.56,
   "roe": 0.39823002,
   "inst_pct": 0.81278,
-  "price": 908.823,
+  "price": 923.52,
   "sector": "Technology",
   "industry": "Semiconductors",
   "method": "yfinance_quarterly",
