@@ -1,12 +1,6 @@
 {
   "positions": [
     {
-      "ticker": "MRVL",
-      "shares": 0.138,
-      "cost_basis": 196.96,
-      "date_opened": "2026-05-22"
-    },
-    {
       "ticker": "STX",
       "shares": 0.088,
       "cost_basis": 820.88,
