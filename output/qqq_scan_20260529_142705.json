@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "run_time": "2026-05-29T14:27:05.442100",
+    "elapsed_s": 0.330872,
+    "total_tickers": 1,
+    "valid_results": 1,
+    "errors": [],
+    "market": {
+      "_cached_at": 1780064139.7458124,
+      "M_score": 5.0,
+      "gate_open": true,
+      "dist_days": 4,
+      "trend_20": 0.19661442388935146,
+      "trend_50": 0.385164580887583,
+      "above_50ma": true,
+      "above_200ma": true,
+      "market_note": "Confirmed uptrend"
+    },
+    "args": {
+      "top": null,
+      "min_score": 0,
+      "output": "all",
+      "refresh": false,
+      "ticker": "CRWD",
+      "workers": 6,
+      "period": "6mo",
+      "quiet": false
+    }
+  },
+  "results": [
+    {
+      "ticker": "CRWD",
+      "error": null,
+      "C_score": 23.0,
+      "C_eps_growth": 0.8437094900267161,
+      "C_method": "price_proxy_3mo",
+      "A_score": 13.5,
+      "A_cagr": 0.2732721726858196,
+      "A_roe": null,
+      "N_score": 5.75,
+      "S_score": 2.75,
+      "breakout_pct": 20.965080590490913,
+      "base_pivot": 583.780029296875,
+      "L_score": 15.0,
+      "rs_pct": 100.0,
+      "dist_from_hi": 0.0,
+      "I_score": 3.0,
+      "inst_pct": null,
+      "M_score": 5.0,
+      "composite": 68.0,
+      "price": 709.57,
+      "sector": "Unknown",
+      "industry": "Unknown",
+      "signal": "MONITOR",
+      "_mom_raw": 0.400769595283877
+    }
+  ]
+}
