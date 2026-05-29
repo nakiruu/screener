@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "run_time": "2026-05-29T14:14:58.493935",
+    "elapsed_s": 0.471689,
+    "total_tickers": 1,
+    "valid_results": 1,
+    "errors": [],
+    "market": {
+      "_cached_at": 1780064092.532387,
+      "M_score": 5.0,
+      "gate_open": true,
+      "dist_days": 4,
+      "trend_20": 0.19802512046311715,
+      "trend_50": 0.3867975604751166,
+      "above_50ma": true,
+      "above_200ma": true,
+      "market_note": "Confirmed uptrend"
+    },
+    "args": {
+      "top": null,
+      "min_score": 0,
+      "output": "all",
+      "refresh": false,
+      "ticker": "CRDO",
+      "workers": 6,
+      "period": "6mo",
+      "quiet": false
+    }
+  },
+  "results": [
+    {
+      "ticker": "CRDO",
+      "error": null,
+      "C_score": 25.0,
+      "C_eps_growth": 4.352,
+      "C_method": "yfinance_quarterly",
+      "A_score": 19.0,
+      "A_cagr": 4.125,
+      "A_roe": 0.27544,
+      "N_score": 3.56,
+      "S_score": 2.06,
+      "breakout_pct": 10.174430589036842,
+      "base_pivot": 210.97000122070312,
+      "L_score": 15.0,
+      "rs_pct": 100.0,
+      "dist_from_hi": 0.0,
+      "I_score": 5.0,
+      "inst_pct": 0.76459,
+      "M_score": 5.0,
+      "composite": 74.6,
+      "price": 232.245,
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "signal": "WATCH",
+      "_mom_raw": 0.35823637542558395
+    }
+  ]
+}

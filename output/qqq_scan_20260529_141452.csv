@@ -1,0 +1,2 @@
+ticker,composite,signal,C_score,A_score,N_score,S_score,L_score,I_score,M_score,breakout_pct,base_pivot,rs_pct,dist_from_hi,C_eps_growth,A_cagr,A_roe,inst_pct,price,sector,industry,error
+CIEN,63.8,PASS,25.0,16.0,0.75,0,15.0,2.0,5.0,0.0,598.8400268554688,100.0,0.0733411769807726,2.372,2.323,0.08201,0.97836,558.855,Technology,Communication Equipment,

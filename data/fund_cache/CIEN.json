@@ -1,0 +1,16 @@
+{
+  "_cached_at": 1780064092.934193,
+  "ticker": "CIEN",
+  "C_score": 25.0,
+  "A_score": 16.0,
+  "I_score": 2.0,
+  "eps_growth": 2.372,
+  "eps_cagr": 2.323,
+  "roe": 0.08201,
+  "inst_pct": 0.97836,
+  "price": 558.855,
+  "sector": "Technology",
+  "industry": "Communication Equipment",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
+}

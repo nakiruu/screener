@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "run_time": "2026-05-29T14:14:52.531899",
+    "elapsed_s": 1.133318,
+    "total_tickers": 1,
+    "valid_results": 1,
+    "errors": [],
+    "market": {
+      "_cached_at": 1780064092.532387,
+      "M_score": 5.0,
+      "gate_open": true,
+      "dist_days": 4,
+      "trend_20": 0.19802512046311715,
+      "trend_50": 0.3867975604751166,
+      "above_50ma": true,
+      "above_200ma": true,
+      "market_note": "Confirmed uptrend"
+    },
+    "args": {
+      "top": null,
+      "min_score": 0,
+      "output": "all",
+      "refresh": false,
+      "ticker": "CIEN",
+      "workers": 6,
+      "period": "6mo",
+      "quiet": false
+    }
+  },
+  "results": [
+    {
+      "ticker": "CIEN",
+      "error": null,
+      "C_score": 25.0,
+      "C_eps_growth": 2.372,
+      "C_method": "yfinance_quarterly",
+      "A_score": 16.0,
+      "A_cagr": 2.323,
+      "A_roe": 0.08201,
+      "N_score": 0.75,
+      "S_score": 0,
+      "breakout_pct": 0.0,
+      "base_pivot": 598.8400268554688,
+      "L_score": 15.0,
+      "rs_pct": 100.0,
+      "dist_from_hi": 0.0733411769807726,
+      "I_score": 2.0,
+      "inst_pct": 0.97836,
+      "M_score": 5.0,
+      "composite": 63.8,
+      "price": 558.855,
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "signal": "PASS",
+      "_mom_raw": 1.7782700928718929
+    }
+  ]
+}
