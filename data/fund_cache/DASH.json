@@ -1,17 +1,16 @@
 {
-  "_cached_at": 1780013779.3908525,
+  "_cached_at": 1780064144.9657607,
   "ticker": "DASH",
-  "C_score": 0.0,
-  "A_score": 0.0,
+  "C_score": 2.0,
+  "A_score": 2.5,
   "I_score": 3.0,
-  "eps_growth": null,
-  "eps_cagr": null,
+  "eps_growth": -0.09687657152722651,
+  "eps_cagr": -0.11061685917915948,
   "roe": null,
   "inst_pct": null,
-  "price": null,
-  "sector": null,
-  "industry": null,
-  "method": "unknown",
-  "M_score": 4.0,
-  "_error": "argument of type 'NoneType' is not iterable"
+  "price": 159.32,
+  "sector": "Unknown",
+  "industry": "Unknown",
+  "method": "price_proxy_3mo",
+  "M_score": 4.0
 }

@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1780013775.1976707,
+  "_cached_at": 1780064140.0647142,
   "ticker": "AAPL",
   "C_score": 13.0,
   "A_score": 13.0,
@@ -7,8 +7,8 @@
   "eps_growth": 0.194,
   "eps_cagr": 0.218,
   "roe": 1.4147099,
-  "inst_pct": 0.65801,
-  "price": 312.51,
+  "inst_pct": 0.65803003,
+  "price": 313.05,
   "sector": "Technology",
   "industry": "Consumer Electronics",
   "method": "yfinance_quarterly",

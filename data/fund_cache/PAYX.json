@@ -1,17 +1,16 @@
 {
-  "_cached_at": 1780013785.6092536,
+  "_cached_at": 1780064152.7614427,
   "ticker": "PAYX",
-  "C_score": 0.0,
-  "A_score": 0.0,
+  "C_score": 8.0,
+  "A_score": 7.5,
   "I_score": 3.0,
-  "eps_growth": null,
-  "eps_cagr": null,
+  "eps_growth": 0.079,
+  "eps_cagr": 0.091,
   "roe": null,
-  "inst_pct": null,
-  "price": null,
-  "sector": null,
-  "industry": null,
-  "method": "unknown",
-  "M_score": 4.0,
-  "_error": "argument of type 'NoneType' is not iterable"
+  "inst_pct": 0.85109,
+  "price": 96.05,
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "method": "yfinance_quarterly",
+  "M_score": 4.0
 }

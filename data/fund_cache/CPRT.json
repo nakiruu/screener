@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1780013778.6651146,
+  "_cached_at": 1780064143.855191,
   "ticker": "CPRT",
   "C_score": 2.0,
   "A_score": 5.0,
@@ -7,8 +7,8 @@
   "eps_growth": -0.01,
   "eps_cagr": 0.023,
   "roe": 0.17607,
-  "inst_pct": 0.83719003,
-  "price": 33.28,
+  "inst_pct": 0.83718,
+  "price": 33.26,
   "sector": "Industrials",
   "industry": "Specialty Business Services",
   "method": "yfinance_quarterly",

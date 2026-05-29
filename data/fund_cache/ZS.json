@@ -1,16 +1,17 @@
 {
-  "_cached_at": 1780013789.647433,
+  "_cached_at": 1780064157.4692428,
   "ticker": "ZS",
   "C_score": 0.0,
   "A_score": 0.0,
-  "I_score": 5.0,
-  "eps_growth": -0.12478131859227659,
-  "eps_cagr": -0.24106966474840558,
-  "roe": -0.037100002,
-  "inst_pct": 0.57846,
-  "price": 130.04,
-  "sector": "Technology",
-  "industry": "Software - Infrastructure",
-  "method": "price_proxy_3mo",
-  "M_score": 4.0
+  "I_score": 3.0,
+  "eps_growth": null,
+  "eps_cagr": null,
+  "roe": null,
+  "inst_pct": null,
+  "price": null,
+  "sector": null,
+  "industry": null,
+  "method": "unknown",
+  "M_score": 4.0,
+  "_error": "argument of type 'NoneType' is not iterable"
 }

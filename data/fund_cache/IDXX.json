@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1780013781.2186494,
+  "_cached_at": 1780064147.3789694,
   "ticker": "IDXX",
   "C_score": 8.0,
   "A_score": 13.0,
@@ -7,8 +7,8 @@
   "eps_growth": 0.147,
   "eps_cagr": 0.172,
   "roe": 0.72915,
-  "inst_pct": 0.96239996,
-  "price": 568.03,
+  "inst_pct": 0.96242,
+  "price": 571.89,
   "sector": "Healthcare",
   "industry": "Diagnostics & Research",
   "method": "yfinance_quarterly",

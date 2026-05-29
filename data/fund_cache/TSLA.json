@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1780013788.1445248,
+  "_cached_at": 1780064155.7443626,
   "ticker": "TSLA",
   "C_score": 13.0,
   "A_score": 6.0,
@@ -7,8 +7,8 @@
   "eps_growth": 0.166,
   "eps_cagr": 0.083,
   "roe": 0.04901,
-  "inst_pct": 0.44893003,
-  "price": 442.1,
+  "inst_pct": 0.44894,
+  "price": 432.3199,
   "sector": "Consumer Cyclical",
   "industry": "Auto Manufacturers",
   "method": "yfinance_quarterly",

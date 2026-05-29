@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1780013782.487965,
+  "_cached_at": 1780064148.7333024,
   "ticker": "LIN",
   "C_score": 8.0,
   "A_score": 8.0,
@@ -8,7 +8,7 @@
   "eps_cagr": 0.134,
   "roe": 0.18229,
   "inst_pct": 0.89352,
-  "price": 501.98,
+  "price": 500.59,
   "sector": "Basic Materials",
   "industry": "Specialty Chemicals",
   "method": "yfinance_quarterly",

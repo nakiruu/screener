@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1780013778.3829434,
+  "_cached_at": 1780064143.6216295,
   "ticker": "COST",
   "C_score": 19.0,
   "A_score": 17.0,
@@ -7,8 +7,8 @@
   "eps_growth": 0.456,
   "eps_cagr": 0.455,
   "roe": 0.29650998,
-  "inst_pct": 0.73713,
-  "price": 995.2,
+  "inst_pct": 0.73713994,
+  "price": 956.49,
   "sector": "Consumer Defensive",
   "industry": "Discount Stores",
   "method": "yfinance_quarterly",
