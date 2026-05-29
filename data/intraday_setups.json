@@ -1,29 +1,29 @@
 [
   {
-    "ticker": "CRWD",
+    "ticker": "STX",
     "sector": "Unknown",
-    "fa_pts": 43.5,
-    "setup_pts": 14.0,
-    "total": 57.5,
-    "gap_pct": 8.42,
-    "pm_price": 727.5,
-    "vwap": 663.36,
-    "ema9": 670.7,
-    "ema20": 671.66,
-    "vs_vwap": 9.67,
-    "entry_low": 662.03,
-    "entry_high": 674.06,
-    "entry_desc": "pullback to VWAP $663.36 or 9-EMA $670.70",
-    "stop": 672.94,
-    "t1": 873.0,
+    "fa_pts": 49.5,
+    "setup_pts": 18.0,
+    "total": 67.5,
+    "gap_pct": -0.43,
+    "pm_price": 877.39,
+    "vwap": 887.71,
+    "ema9": 882.92,
+    "ema20": 884.34,
+    "vs_vwap": -1.16,
+    "entry_low": 880.3,
+    "entry_high": 889.99,
+    "entry_desc": "reclaim $881.18 prev-close + hold",
+    "stop": 811.58,
+    "t1": 1052.86,
     "risk_r": 2.7,
     "flags": [
-      "runaway +8%",
-      "far above VWAP",
-      "above 9-EMA (flat)"
+      "slight gap-down",
+      "just below VWAP",
+      "below 20-EMA"
     ],
-    "yest_close": 671.0,
-    "yest_high": 677.5,
-    "yest_low": 641.52001953125
+    "yest_close": 881.1799926757812,
+    "yest_high": 905.3900146484375,
+    "yest_low": 866.010009765625
   }
 ]
