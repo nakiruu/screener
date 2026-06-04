@@ -1,16 +1,17 @@
 {
-  "_cached_at": 1780585358.1370091,
+  "_cached_at": 1780585945.5342498,
   "ticker": "MU",
-  "C_score": 25.0,
-  "A_score": 17.5,
+  "C_score": 0.0,
+  "A_score": 0.0,
   "I_score": 3.0,
-  "eps_growth": 1.4869341740283857,
-  "eps_cagr": 4.325663653625826,
+  "eps_growth": null,
+  "eps_cagr": null,
   "roe": null,
   "inst_pct": null,
-  "price": 996.5792,
-  "sector": "Unknown",
-  "industry": "Unknown",
-  "method": "price_proxy_3mo",
-  "M_score": 4.0
+  "price": null,
+  "sector": null,
+  "industry": null,
+  "method": "unknown",
+  "M_score": 4.0,
+  "_error": "argument of type 'NoneType' is not iterable"
 }

@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1780585343.6156342,
+  "_cached_at": 1780585935.038168,
   "ticker": "ADSK",
   "C_score": 25.0,
   "A_score": 20,
@@ -8,7 +8,7 @@
   "eps_cagr": 2.314,
   "roe": 0.50396,
   "inst_pct": 0.97265,
-  "price": 237.035,
+  "price": 236.61,
   "sector": "Technology",
   "industry": "Software - Application",
   "method": "yfinance_quarterly",

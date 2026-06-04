@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1780585360.4689255,
+  "_cached_at": 1780585947.6288786,
   "ticker": "QCOM",
   "C_score": 25.0,
   "A_score": 19.0,
@@ -8,7 +8,7 @@
   "eps_cagr": 1.73,
   "roe": 0.36083,
   "inst_pct": 0.84552,
-  "price": 241.04,
+  "price": 242.73,
   "sector": "Technology",
   "industry": "Semiconductors",
   "method": "yfinance_quarterly",

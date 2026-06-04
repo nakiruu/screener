@@ -1,16 +1,17 @@
 {
-  "_cached_at": 1780585363.4435096,
+  "_cached_at": 1780585950.3973532,
   "ticker": "WBD",
-  "C_score": 2.0,
-  "A_score": 17.5,
+  "C_score": 0.0,
+  "A_score": 0.0,
   "I_score": 3.0,
-  "eps_growth": -0.03452594369397799,
-  "eps_cagr": 0.8781920692287677,
+  "eps_growth": null,
+  "eps_cagr": null,
   "roe": null,
   "inst_pct": null,
-  "price": 26.985,
-  "sector": "Unknown",
-  "industry": "Unknown",
-  "method": "price_proxy_3mo",
-  "M_score": 4.0
+  "price": null,
+  "sector": null,
+  "industry": null,
+  "method": "unknown",
+  "M_score": 4.0,
+  "_error": "argument of type 'NoneType' is not iterable"
 }

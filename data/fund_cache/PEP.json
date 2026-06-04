@@ -1,16 +1,17 @@
 {
-  "_cached_at": 1780585359.8753195,
+  "_cached_at": 1780585947.097784,
   "ticker": "PEP",
   "C_score": 0.0,
-  "A_score": 7.5,
+  "A_score": 0.0,
   "I_score": 3.0,
-  "eps_growth": -0.12026022924554836,
-  "eps_cagr": 0.06419959370902506,
+  "eps_growth": null,
+  "eps_cagr": null,
   "roe": null,
   "inst_pct": null,
-  "price": 142.93,
-  "sector": "Unknown",
-  "industry": "Unknown",
-  "method": "price_proxy_3mo",
-  "M_score": 4.0
+  "price": null,
+  "sector": null,
+  "industry": null,
+  "method": "unknown",
+  "M_score": 4.0,
+  "_error": "argument of type 'NoneType' is not iterable"
 }

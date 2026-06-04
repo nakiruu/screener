@@ -1,16 +1,17 @@
 {
-  "_cached_at": 1780585356.0887337,
+  "_cached_at": 1780585943.3935797,
   "ticker": "LITE",
-  "C_score": 17.0,
-  "A_score": 17.5,
+  "C_score": 0.0,
+  "A_score": 0.0,
   "I_score": 3.0,
-  "eps_growth": 0.3135135227210277,
-  "eps_cagr": 5.068012042811282,
+  "eps_growth": null,
+  "eps_cagr": null,
   "roe": null,
   "inst_pct": null,
-  "price": 894.0,
-  "sector": "Unknown",
-  "industry": "Unknown",
-  "method": "price_proxy_3mo",
-  "M_score": 4.0
+  "price": null,
+  "sector": null,
+  "industry": null,
+  "method": "unknown",
+  "M_score": 4.0,
+  "_error": "argument of type 'NoneType' is not iterable"
 }

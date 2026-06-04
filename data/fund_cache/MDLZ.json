@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1780585356.6882846,
+  "_cached_at": 1780585943.9743702,
   "ticker": "MDLZ",
   "C_score": 19.0,
   "A_score": 15.0,
@@ -8,7 +8,7 @@
   "eps_cagr": 0.413,
   "roe": 0.101610005,
   "inst_pct": 0.89835,
-  "price": 61.46,
+  "price": 61.34,
   "sector": "Consumer Defensive",
   "industry": "Confectioners",
   "method": "yfinance_quarterly",
