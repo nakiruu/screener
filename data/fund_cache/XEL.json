@@ -1,17 +1,16 @@
 {
-  "_cached_at": 1780064157.2702901,
+  "_cached_at": 1780585364.1285276,
   "ticker": "XEL",
-  "C_score": 0.0,
-  "A_score": 0.0,
+  "C_score": 2.0,
+  "A_score": 7.5,
   "I_score": 3.0,
-  "eps_growth": null,
-  "eps_cagr": null,
+  "eps_growth": -0.06333462262777456,
+  "eps_cagr": 0.08140318749251707,
   "roe": null,
   "inst_pct": null,
-  "price": null,
-  "sector": null,
-  "industry": null,
-  "method": "unknown",
-  "M_score": 4.0,
-  "_error": "argument of type 'NoneType' is not iterable"
+  "price": 77.21,
+  "sector": "Unknown",
+  "industry": "Unknown",
+  "method": "price_proxy_3mo",
+  "M_score": 4.0
 }
