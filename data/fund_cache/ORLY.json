@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1780585946.3057895,
+  "_cached_at": 1781060328.3035824,
   "ticker": "ORLY",
   "C_score": 8.0,
   "A_score": 10.5,
@@ -7,8 +7,8 @@
   "eps_growth": 0.122,
   "eps_cagr": 0.161,
   "roe": null,
-  "inst_pct": 0.89341,
-  "price": 87.87,
+  "inst_pct": 0.89371,
+  "price": 89.49,
   "sector": "Consumer Cyclical",
   "industry": "Auto Parts",
   "method": "yfinance_quarterly",

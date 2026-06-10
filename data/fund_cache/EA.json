@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1780585940.1072962,
+  "_cached_at": 1781060321.2760787,
   "ticker": "EA",
   "C_score": 23.0,
   "A_score": 17.0,
@@ -7,8 +7,8 @@
   "eps_growth": 0.815,
   "eps_cagr": 0.853,
   "roe": 0.1349,
-  "inst_pct": 0.95195997,
-  "price": 203.1,
+  "inst_pct": 0.95209,
+  "price": 202.48,
   "sector": "Communication Services",
   "industry": "Electronic Gaming & Multimedia",
   "method": "yfinance_quarterly",

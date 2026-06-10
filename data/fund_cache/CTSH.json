@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1780585939.3487225,
+  "_cached_at": 1781060320.4104848,
   "ticker": "CTSH",
   "C_score": 2.0,
   "A_score": 4.0,
@@ -7,8 +7,8 @@
   "eps_growth": -0.002,
   "eps_cagr": 0.036,
   "roe": 0.14876,
-  "inst_pct": 1.081,
-  "price": 53.9,
+  "inst_pct": 1.08609,
+  "price": 52.94,
   "sector": "Technology",
   "industry": "Information Technology Services",
   "method": "yfinance_quarterly",

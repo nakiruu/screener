@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1780585949.8797007,
+  "_cached_at": 1781060331.7773674,
   "ticker": "TXN",
   "C_score": 17.0,
   "A_score": 15.0,
@@ -7,8 +7,8 @@
   "eps_growth": 0.31,
   "eps_cagr": 0.313,
   "roe": 0.32347,
-  "inst_pct": 0.92551005,
-  "price": 307.455,
+  "inst_pct": 0.926,
+  "price": 288.63,
   "sector": "Technology",
   "industry": "Semiconductors",
   "method": "yfinance_quarterly",

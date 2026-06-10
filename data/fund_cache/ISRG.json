@@ -1,16 +1,17 @@
 {
-  "_cached_at": 1780585942.5816455,
+  "_cached_at": 1781060324.0297573,
   "ticker": "ISRG",
   "C_score": 0.0,
-  "A_score": 2.5,
+  "A_score": 0.0,
   "I_score": 3.0,
-  "eps_growth": -0.16774730728859732,
-  "eps_cagr": -0.1262134695655056,
+  "eps_growth": null,
+  "eps_cagr": null,
   "roe": null,
   "inst_pct": null,
-  "price": 417.1084,
-  "sector": "Unknown",
-  "industry": "Unknown",
-  "method": "price_proxy_3mo",
-  "M_score": 4.0
+  "price": null,
+  "sector": null,
+  "industry": null,
+  "method": "unknown",
+  "M_score": 4.0,
+  "_error": "argument of type 'NoneType' is not iterable"
 }

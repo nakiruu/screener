@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1780585944.1105037,
+  "_cached_at": 1781060325.8252084,
   "ticker": "MELI",
   "C_score": 0.0,
   "A_score": 4.0,
@@ -8,7 +8,7 @@
   "eps_cagr": -0.156,
   "roe": 0.31258,
   "inst_pct": 0.83008003,
-  "price": 1666.005,
+  "price": 1641.16,
   "sector": "Consumer Cyclical",
   "industry": "Internet Retail",
   "method": "yfinance_quarterly",

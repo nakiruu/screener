@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1780585939.6629753,
+  "_cached_at": 1781060320.763388,
   "ticker": "DDOG",
   "C_score": 25.0,
   "A_score": 16.0,
@@ -7,8 +7,8 @@
   "eps_growth": 1.134,
   "eps_cagr": 1.04,
   "roe": 0.039300002,
-  "inst_pct": 0.91863996,
-  "price": 249.0,
+  "inst_pct": 0.91905,
+  "price": 227.34,
   "sector": "Technology",
   "industry": "Software - Application",
   "method": "yfinance_quarterly",
