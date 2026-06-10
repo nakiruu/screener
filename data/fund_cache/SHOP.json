@@ -1,16 +1,16 @@
 {
-  "_cached_at": 1781060330.3378005,
+  "_cached_at": 1781061220.196999,
   "ticker": "SHOP",
   "C_score": 0.0,
-  "A_score": 4.5,
-  "I_score": 3.0,
+  "A_score": 4.0,
+  "I_score": 5.0,
   "eps_growth": -0.1464131288809738,
   "eps_cagr": 0.0007255397678895825,
-  "roe": null,
-  "inst_pct": null,
+  "roe": 0.11311,
+  "inst_pct": 0.73853993,
   "price": 110.42,
-  "sector": "Unknown",
-  "industry": "Unknown",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "method": "price_proxy_3mo",
   "M_score": 4.0
 }

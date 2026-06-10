@@ -1,16 +1,17 @@
 {
-  "_cached_at": 1781060318.7631326,
+  "_cached_at": 1781061209.1287787,
   "ticker": "CEG",
   "C_score": 0.0,
-  "A_score": 2.5,
+  "A_score": 0.0,
   "I_score": 3.0,
-  "eps_growth": NaN,
-  "eps_cagr": -0.06536845397554975,
+  "eps_growth": null,
+  "eps_cagr": null,
   "roe": null,
   "inst_pct": null,
-  "price": 251.65,
-  "sector": "Unknown",
-  "industry": "Unknown",
-  "method": "price_proxy_3mo",
-  "M_score": 4.0
+  "price": null,
+  "sector": null,
+  "industry": null,
+  "method": "unknown",
+  "M_score": 4.0,
+  "_error": "argument of type 'NoneType' is not iterable"
 }

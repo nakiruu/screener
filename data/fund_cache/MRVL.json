@@ -1,16 +1,17 @@
 {
-  "_cached_at": 1781060326.5657444,
+  "_cached_at": 1781061216.6089666,
   "ticker": "MRVL",
   "C_score": 0.0,
-  "A_score": 2.0,
+  "A_score": 0.0,
   "I_score": 3.0,
-  "eps_growth": -0.806,
-  "eps_cagr": -0.804,
-  "roe": 0.16028,
-  "inst_pct": 0.85560995,
-  "price": 266.88,
-  "sector": "Technology",
-  "industry": "Semiconductors",
-  "method": "yfinance_quarterly",
-  "M_score": 4.0
+  "eps_growth": null,
+  "eps_cagr": null,
+  "roe": null,
+  "inst_pct": null,
+  "price": null,
+  "sector": null,
+  "industry": null,
+  "method": "unknown",
+  "M_score": 4.0,
+  "_error": "argument of type 'NoneType' is not iterable"
 }

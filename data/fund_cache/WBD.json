@@ -1,16 +1,16 @@
 {
-  "_cached_at": 1781060332.2615216,
+  "_cached_at": 1781061222.577161,
   "ticker": "WBD",
   "C_score": 2.0,
-  "A_score": 17.5,
-  "I_score": 3.0,
+  "A_score": 15.0,
+  "I_score": 5.0,
   "eps_growth": -0.04322769283304828,
   "eps_cagr": 0.8266732696623154,
-  "roe": null,
-  "inst_pct": null,
+  "roe": -0.049590003,
+  "inst_pct": 0.75918996,
   "price": 26.56,
-  "sector": "Unknown",
-  "industry": "Unknown",
+  "sector": "Communication Services",
+  "industry": "Entertainment",
   "method": "price_proxy_3mo",
   "M_score": 4.0
 }
