@@ -1,11 +1,11 @@
 {
-  "_cached_at": 1779448332.3138728,
-  "M_score": 5.0,
-  "gate_open": true,
-  "dist_days": 4,
-  "trend_20": 0.1460472940224984,
-  "trend_50": 0.27338948416037745,
+  "_cached_at": 1782134712.84366,
+  "M_score": 3.0,
+  "gate_open": false,
+  "dist_days": 7,
+  "trend_20": 0.08072712600784548,
+  "trend_50": 0.35111863323295056,
   "above_50ma": true,
   "above_200ma": true,
-  "market_note": "Confirmed uptrend"
+  "market_note": "Market under pressure"
 }

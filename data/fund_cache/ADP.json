@@ -1,5 +1,5 @@
 {
-  "_cached_at": 1779443420.9571614,
+  "_cached_at": 1782134713.1612003,
   "ticker": "ADP",
   "C_score": 8.0,
   "A_score": 10.0,
@@ -7,8 +7,8 @@
   "eps_growth": 0.088,
   "eps_cagr": 0.105,
   "roe": 0.71208,
-  "inst_pct": 0.90617996,
-  "price": 220.075,
+  "inst_pct": 0.90683997,
+  "price": 218.41,
   "sector": "Technology",
   "industry": "Software - Application",
   "method": "yfinance_quarterly",

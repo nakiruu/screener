@@ -1,17 +1,16 @@
 {
-  "_cached_at": 1779443432.6042795,
+  "_cached_at": 1782134726.201267,
   "ticker": "ROP",
-  "C_score": 0.0,
-  "A_score": 0.0,
+  "C_score": 2.0,
+  "A_score": 2.5,
   "I_score": 3.0,
-  "eps_growth": null,
-  "eps_cagr": null,
+  "eps_growth": -0.06272458707157946,
+  "eps_cagr": -0.2038948451245567,
   "roe": null,
   "inst_pct": null,
-  "price": null,
-  "sector": null,
-  "industry": null,
-  "method": "unknown",
-  "M_score": 4.0,
-  "_error": "argument of type 'NoneType' is not iterable"
+  "price": 330.255,
+  "sector": "Unknown",
+  "industry": "Unknown",
+  "method": "price_proxy_3mo",
+  "M_score": 4.0
 }
