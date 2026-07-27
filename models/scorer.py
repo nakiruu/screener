@@ -30,10 +30,6 @@ L_MAX  = 15
 I_MAX  =  5
 M_MAX  =  5
 
-# Calibration constants from regression on 38-instrument audit
-BREAKOUT_NORM   = 74.0   # normalizing denominator for breakout%
-NS_COMBINED_MAX = 30.0   # max combined N+S pts
-
 # ── Signal tiers (lo, hi, label) ──────────────────────────────
 # Calibrated from audit data:
 #   CRDO/CIEN (92/90) → elite

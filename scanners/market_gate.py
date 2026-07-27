@@ -18,10 +18,7 @@ Uses XLK (tech sector ETF) as primary gauge with QQQ as secondary.
 
 import json
 import time
-import warnings
 from pathlib import Path
-
-warnings.filterwarnings("ignore")
 
 CACHE_FILE = Path("data/market_gate_cache.json")
 CACHE_TTL  = 3_600    # 1 hour (market conditions change intraday)
@@ -73,7 +70,6 @@ def score_market(refresh: bool = False) -> dict:
                 pass
 
         if xlk is None or len(xlk) < 30:
-            # If XLK fails, try QQQ
             xlk = qqq
 
         if xlk is None or len(xlk) < 30:
@@ -84,7 +80,7 @@ def score_market(refresh: bool = False) -> dict:
         volumes = xlk["Volume"].values.astype(float) if "Volume" in xlk.columns else None
 
         # ── Distribution days (last 25 sessions) ─────────────
-        n = len(closes)
+        n         = len(closes)
         dist_days = 0
         window    = min(25, n - 1)
         returns   = (closes[1:] / closes[:-1]) - 1
@@ -93,11 +89,9 @@ def score_market(refresh: bool = False) -> dict:
             r = returns[i]
             if r < -0.002:   # down > 0.2%
                 if volumes is not None and i > 0:
-                    # Volume confirmation: today's vol > prior session
                     if volumes[i + 1] > volumes[i]:
                         dist_days += 1
                 else:
-                    # No volume data: count any day down > 0.3%
                     if r < -0.003:
                         dist_days += 1
 
@@ -105,7 +99,6 @@ def score_market(refresh: bool = False) -> dict:
         trend_20 = (closes[-1] / closes[-21] - 1) if n >= 21 else 0.0
         trend_50 = (closes[-1] / closes[-51] - 1) if n >= 51 else 0.0
 
-        # 50-day and 200-day MA
         ma50  = closes[-50:].mean()  if n >= 50  else closes.mean()
         ma200 = closes[-200:].mean() if n >= 200 else closes.mean()
 
@@ -118,7 +111,6 @@ def score_market(refresh: bool = False) -> dict:
         result["above_50ma"]  = bool(above_50ma)
         result["above_200ma"] = bool(above_200ma)
 
-        # ── M score ───────────────────────────────────────────
         m_score, gate_open, note = _score_M(
             dist_days, trend_20, above_50ma, above_200ma
         )
@@ -130,7 +122,6 @@ def score_market(refresh: bool = False) -> dict:
         result["_error"]      = str(e)
         result["market_note"] = f"error: {e}"
 
-    # ── Cache ─────────────────────────────────────────────────
     try:
         CACHE_FILE.write_text(json.dumps(result, indent=2))
     except Exception:
@@ -141,10 +132,7 @@ def score_market(refresh: bool = False) -> dict:
 
 def _score_M(dist_days: int, trend_20: float,
              above_50ma: bool, above_200ma: bool) -> tuple[float, bool, str]:
-    """
-    Map market conditions to M score (0–5 pts), gate status, and label.
-    """
-    # ── Confirmed uptrend ──────────────────────────────────────
+    """Map market conditions to M score (0–5 pts), gate status, and label."""
     if (dist_days <= 4 and trend_20 > 0.01
             and above_50ma and above_200ma):
         return 5.0, True, "Confirmed uptrend"
@@ -152,19 +140,18 @@ def _score_M(dist_days: int, trend_20: float,
     if dist_days <= 4 and trend_20 > 0 and above_50ma:
         return 4.0, True, "Confirmed uptrend (mild)"
 
-    # ── Under pressure ────────────────────────────────────────
     if dist_days <= 7 and above_50ma:
         return 3.0, False, "Market under pressure"
 
     if dist_days <= 7 and not above_50ma and above_200ma:
         return 2.0, False, "Under pressure / below 50MA"
 
-    # ── Downtrend / correction ────────────────────────────────
+    if dist_days >= 8:
+        if not above_50ma:
+            return 0.0, False, "Downtrend — avoid new longs"
+        return 1.0, False, "Distribution phase"
+
     if not above_50ma and not above_200ma:
         return 0.0, False, "Downtrend — avoid new longs"
 
-    if dist_days >= 8:
-        return 1.0, False, "Distribution phase"
-
-    # Default
     return 3.0, False, "Uncertain — caution"

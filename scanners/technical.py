@@ -19,12 +19,9 @@ Results cached in data/tech_cache/ (TTL: 4 hrs for prices).
 
 import json
 import time
-import warnings
 from pathlib import Path
 
 import numpy as np
-
-warnings.filterwarnings("ignore")
 
 CACHE_DIR        = Path("data/tech_cache")
 CACHE_TTL        = 14_400    # 4 hours
@@ -35,9 +32,6 @@ NS_COMBINED_MAX  = 30.0      # max combined N+S pts
 N_MAX            = 15.0
 S_MAX            = 15.0
 L_MAX            = 15.0
-
-# RS calculation universe cache (shared across all tickers in a run)
-_RS_UNIVERSE_CACHE: dict = {}
 
 
 def score_technical(ticker: str, period: str = "1y",
@@ -84,8 +78,6 @@ def score_technical(ticker: str, period: str = "1y",
             return result
 
         # Flatten MultiIndex columns if present
-        if isinstance(hist.columns, type(None.__class__)):
-            pass
         try:
             hist.columns = hist.columns.droplevel(1)
         except Exception:
@@ -157,9 +149,11 @@ def score_technical(ticker: str, period: str = "1y",
     except Exception as e:
         result["_error"] = str(e)
 
-    # ── Cache ─────────────────────────────────────────────────
+    # ── Cache (strip non-serializable numpy arrays) ────────
     try:
-        cache_file.write_text(json.dumps(result, indent=2))
+        cacheable = {k: v for k, v in result.items()
+                     if not isinstance(v, np.ndarray)}
+        cache_file.write_text(json.dumps(cacheable, indent=2))
     except Exception:
         pass
 
@@ -294,12 +288,12 @@ def score_L_from_ranks(results: list[dict]) -> list[dict]:
         mom   = r.get("_mom_raw", 0.0)
         pct   = sum(1 for v in all_vals if v <= mom) / len(all_vals) * 100
         r["rs_pct"]  = float(pct)
-        r["L_score"] = _score_L_from_pct(pct)
+        r["L_score"] = score_L_from_pct(pct)
 
     return results
 
 
-def _score_L_from_pct(pct: float) -> float:
+def score_L_from_pct(pct: float) -> float:
     """
     Map RS percentile rank (0–100) to 0–15 pts.
     O'Neil requires RS ≥ 80 as a minimum for CANSLIM candidates.

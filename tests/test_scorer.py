@@ -18,7 +18,7 @@ from models.scorer import (
 from scanners.fundamental import (
     _score_eps_growth, _score_annual, _score_institutional
 )
-from scanners.technical import _score_L_from_pct
+from scanners.technical import score_L_from_pct
 
 
 def test_score_weights_sum_to_100():
@@ -101,10 +101,10 @@ def test_institutional_scoring():
 
 def test_rs_scoring():
     """Verify RS percentile → L score mapping."""
-    assert _score_L_from_pct(99.0) == 15.0    # top
-    assert _score_L_from_pct(80.0) == 11.5    # O'Neil minimum
-    assert _score_L_from_pct(50.0) ==  5.5    # average
-    assert _score_L_from_pct(10.0) ==  1.0    # laggard
+    assert score_L_from_pct(99.0) == 15.0    # top
+    assert score_L_from_pct(80.0) == 11.5    # O'Neil minimum
+    assert score_L_from_pct(50.0) ==  5.5    # average
+    assert score_L_from_pct(10.0) ==  1.0    # laggard
 
 
 def test_fundamental_base():
@@ -146,7 +146,7 @@ def test_audit_reconstruction():
         ("MJ",    48,  8, 38),
     ]
 
-    from scanners.technical import _score_N, _score_S, _score_L_from_pct
+    from scanners.technical import _score_N, _score_S, score_L_from_pct
 
     TOLERANCE = 10   # pts — generous for a reconstructed model
 
@@ -158,7 +158,7 @@ def test_audit_reconstruction():
         n = _score_N(bk, 0.05 if bk > 40 else 0.15)
         s = _score_S(bk, 1.3, 1.2)
         rs_pct = (actual - 45) / (92 - 45) * 100
-        l = _score_L_from_pct(rs_pct)
+        l = score_L_from_pct(rs_pct)
         m = 4.0
 
         r = {"C_score": ca * 0.55, "A_score": ca * 0.45, "N_score": n,

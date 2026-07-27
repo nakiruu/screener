@@ -12,10 +12,7 @@ Results are cached to data/qqq_holdings_cache.json (TTL: 24 hrs).
 
 import json
 import time
-import warnings
 from pathlib import Path
-
-warnings.filterwarnings("ignore")
 
 CACHE_PATH = Path("data/qqq_holdings_cache.json")
 CACHE_TTL  = 86_400   # 24 hours

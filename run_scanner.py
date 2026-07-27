@@ -61,9 +61,9 @@ import pandas as pd
 
 from scanners.qqq_holdings import get_qqq_holdings
 from scanners.fundamental  import score_fundamentals
-from scanners.technical    import score_technical
+from scanners.technical    import score_technical, score_L_from_ranks
 from scanners.market_gate  import score_market
-from models.scorer         import build_composite_score, SCORE_TIERS, M_MAX
+from models.scorer         import build_composite_score, get_signal, M_MAX
 from output.report         import build_html_report
 from output.export         import export_json, export_csv
 
@@ -91,7 +91,7 @@ def parse_args():
 
 
 # ── SINGLE TICKER PROCESSOR ───────────────────────────────────
-def process_ticker(ticker: str, period: str, refresh: bool, quiet: bool) -> dict:
+def process_ticker(ticker: str, period: str, refresh: bool) -> dict:
     """
     Run the full CANSLIM scoring pipeline for one ticker.
     Returns a result dict with all sub-scores and metadata.
@@ -140,36 +140,15 @@ def process_ticker(ticker: str, period: str, refresh: bool, quiet: bool) -> dict
             "L_score":      tech["L_score"],
             "rs_pct":       tech.get("rs_pct"),
             "dist_from_hi": tech.get("dist_from_hi"),
+            "_mom_raw":     tech.get("_mom_raw", 0.0),
         })
 
-        # ── Market gate (M) ───────────────────────────────────
-        # Note: market gate is fetched once and shared; pass through
-        result["M_score"] = fund.get("M_score", 4)
-
-        # ── Composite ─────────────────────────────────────────
-        composite = build_composite_score(result)
-        result["composite"] = composite
-        result["signal"]    = _signal(composite)
-
-        if not quiet:
-            tier = result["signal"]
-            bk   = f"{result['breakout_pct']:.0f}%" if result["breakout_pct"] is not None else "n/a"
-            print(f"  {ticker:6s}  score={composite:5.1f}  bk={bk:6s}  {tier}")
+        # M_score and final composite are set by _process() with the shared market gate value
 
     except Exception as e:
         result["error"] = str(e)
-        if not quiet:
-            print(f"  {ticker:6s}  ERROR: {e}")
 
     return result
-
-
-# ── SIGNAL LABEL ──────────────────────────────────────────────
-def _signal(score: float) -> str:
-    for lo, hi, label in SCORE_TIERS:
-        if lo <= score < hi:
-            return label
-    return "NEUTRAL"
 
 
 # ── SWING LEVELS ─────────────────────────────────────────────
@@ -279,11 +258,16 @@ def main():
     errors  = []
 
     def _process(t):
-        r = process_ticker(t, args.period, args.refresh, args.quiet)
-        # Scale raw M_score (0–5) to swing M_MAX range before composite
+        r = process_ticker(t, args.period, args.refresh)
         r["M_score"] = round(M_score / 5.0 * M_MAX, 1)
         r["composite"] = build_composite_score(r)
-        r["signal"]    = _signal(r["composite"])
+        r["signal"]    = get_signal(r["composite"])
+        if not args.quiet:
+            if r["error"]:
+                print(f"  {t:6s}  ERROR: {r['error']}")
+            else:
+                bk = f"{r['breakout_pct']:.0f}%" if r["breakout_pct"] is not None else "n/a"
+                print(f"  {t:6s}  score={r['composite']:5.1f}  bk={bk:6s}  {r['signal']}")
         return r
 
     if args.workers == 1:
@@ -297,6 +281,13 @@ def main():
                 results.append(r)
                 if r["error"]:
                     errors.append(r["ticker"])
+
+    # ── RS cross-sectional ranking (second pass) ─────────────
+    results = score_L_from_ranks(results)
+    for r in results:
+        if not r.get("error"):
+            r["composite"] = build_composite_score(r)
+            r["signal"]    = get_signal(r["composite"])
 
     # ── Sort & filter ─────────────────────────────────────────
     results.sort(key=lambda r: -r["composite"])

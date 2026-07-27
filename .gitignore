@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+
+# Ephemeral cache (regenerated on each scan)
+data/fund_cache/
+data/tech_cache/
+data/market_gate_cache.json
+data/qqq_holdings_cache.json
+
+# Generated scan output
+output/qqq_scan_*
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
