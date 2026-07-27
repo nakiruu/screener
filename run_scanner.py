@@ -59,7 +59,7 @@ if missing:
 import numpy as np
 import pandas as pd
 
-from scanners.qqq_holdings import get_qqq_holdings
+from scanners.qqq_holdings import get_holdings
 from scanners.fundamental  import score_fundamentals
 from scanners.technical    import score_technical, score_L_from_ranks
 from scanners.market_gate  import score_market
@@ -70,7 +70,9 @@ from output.export         import export_json, export_csv
 
 # ── CLI ───────────────────────────────────────────────────────
 def parse_args():
-    p = argparse.ArgumentParser(description="QQQ CANSLIM Scanner")
+    p = argparse.ArgumentParser(description="CANSLIM Scanner (QQQ / SPY / All)")
+    p.add_argument("--universe",   choices=["qqq","spy","all"], default="qqq",
+                   help="Scan universe: qqq (Nasdaq-100), spy (S&P 500), all (both)")
     p.add_argument("--top",        type=int,   default=None,
                    help="Show only top N results")
     p.add_argument("--min-score",  type=float, default=0,
@@ -224,8 +226,12 @@ def main():
     args = parse_args()
     start_ts = datetime.now()
 
+    universe_label = {"qqq": "QQQ (Nasdaq-100)", "spy": "SPY (S&P 500)",
+                       "all": "QQQ + SPY (Combined)"}
+    uni = args.universe if not args.ticker else "single"
+
     print("\n" + "="*65)
-    print("  QQQ CANSLIM SCANNER")
+    print(f"  CANSLIM SCANNER — {universe_label.get(uni, 'Single Ticker')}")
     print(f"  Started: {start_ts.strftime('%Y-%m-%d %H:%M:%S')}")
     print("="*65)
 
@@ -234,9 +240,9 @@ def main():
         tickers = [args.ticker.upper()]
         print(f"\n[MODE] Single-ticker deep-dive: {tickers[0]}")
     else:
-        print("\n[0] Fetching QQQ holdings...")
-        tickers = get_qqq_holdings(refresh=args.refresh)
-        print(f"     {len(tickers)} Nasdaq-100 constituents loaded")
+        print(f"\n[0] Fetching {args.universe.upper()} holdings...")
+        tickers = get_holdings(universe=args.universe, refresh=args.refresh)
+        print(f"     {len(tickers)} constituents loaded")
 
     # ── Market gate (compute once for all tickers) ────────────
     print("\n[1] Computing market direction gate (XLK/QQQ)...")

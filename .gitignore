@@ -8,6 +8,7 @@ data/fund_cache/
 data/tech_cache/
 data/market_gate_cache.json
 data/qqq_holdings_cache.json
+data/spy_holdings_cache.json
 
 # Generated scan output
 output/qqq_scan_*
