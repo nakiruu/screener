@@ -154,14 +154,14 @@ def process_ticker(ticker: str, period: str, refresh: bool) -> dict:
 # ── SWING LEVELS ─────────────────────────────────────────────
 def _print_swing_levels(r: dict) -> None:
     """Print buy zone, stop, and targets for a BUY / STRONG BUY result."""
-    import yfinance as yf
+    from scanners import _yf_fetch
 
     ticker = r["ticker"]
     pivot  = r.get("base_pivot")
     bk_pct = r.get("breakout_pct") or 0.0
 
     try:
-        hist   = yf.Ticker(ticker).history(period="3mo")
+        hist   = _yf_fetch.ticker_history(ticker, period="3mo")
         closes = hist["Close"].values.astype(float)
     except Exception:
         print(f"    [{ticker}] Could not fetch price data.")

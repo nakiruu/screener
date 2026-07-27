@@ -65,9 +65,8 @@ def score_fundamentals(ticker: str, refresh: bool = False) -> dict:
     }
 
     try:
-        import yfinance as yf
-        tk   = yf.Ticker(ticker)
-        info = tk.info or {}
+        from scanners import _yf_fetch
+        info = _yf_fetch.ticker_info(ticker)
 
         # ── Price / meta ──────────────────────────────────────
         result["price"]    = info.get("currentPrice") or info.get("regularMarketPrice")
@@ -83,7 +82,7 @@ def score_fundamentals(ticker: str, refresh: bool = False) -> dict:
         else:
             # Fallback: 3-month price return
             try:
-                hist   = tk.history(period="3mo", auto_adjust=True)
+                hist   = _yf_fetch.ticker_history(ticker, period="3mo", auto_adjust=True)
                 if len(hist) > 10:
                     growth = (hist["Close"].iloc[-1] / hist["Close"].iloc[0]) - 1
                     result["eps_growth"] = growth
@@ -109,7 +108,7 @@ def score_fundamentals(ticker: str, refresh: bool = False) -> dict:
         else:
             # fallback: 1-yr price return × 0.5
             try:
-                hist  = tk.history(period="1y", auto_adjust=True)
+                hist  = _yf_fetch.ticker_history(ticker, period="1y", auto_adjust=True)
                 if len(hist) > 200:
                     cagr = ((hist["Close"].iloc[-1] / hist["Close"].iloc[0]) - 1) * 0.5
                 else:

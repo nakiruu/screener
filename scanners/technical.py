@@ -68,11 +68,11 @@ def score_technical(ticker: str, period: str = "1y",
     }
 
     try:
-        import yfinance as yf
+        from scanners import _yf_fetch
 
         # ── Price + volume history ────────────────────────────
-        hist = yf.download(ticker, period=period,
-                           auto_adjust=True, progress=False, threads=False)
+        hist = _yf_fetch.download(ticker, period=period,
+                                  auto_adjust=True, progress=False, threads=False)
         if hist is None or len(hist) < 60:
             result["_error"] = "insufficient_price_data"
             return result

@@ -53,14 +53,14 @@ def score_market(refresh: bool = False) -> dict:
     }
 
     try:
-        import yfinance as yf
+        from scanners import _yf_fetch
         import numpy as np
 
         # ── Fetch XLK (primary) + QQQ (secondary) ─────────────
-        xlk = yf.download("XLK", period="6mo",
-                          auto_adjust=True, progress=False, threads=False)
-        qqq = yf.download("QQQ", period="6mo",
-                          auto_adjust=True, progress=False, threads=False)
+        xlk = _yf_fetch.download("XLK", period="6mo",
+                                 auto_adjust=True, progress=False, threads=False)
+        qqq = _yf_fetch.download("QQQ", period="6mo",
+                                 auto_adjust=True, progress=False, threads=False)
 
         # Flatten multi-index if present
         for df in [xlk, qqq]:
