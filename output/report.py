@@ -6,16 +6,7 @@ HTML dashboard builder for QQQ CANSLIM scan results.
 from __future__ import annotations
 from pathlib import Path
 from datetime import datetime
-
-
-_TIER_COLOR = {
-    "STRONG BUY": "#16a34a",
-    "BUY":        "#22c55e",
-    "WATCH":      "#f59e0b",
-    "MONITOR":    "#f97316",
-    "PASS":       "#ef4444",
-    "NEUTRAL":    "#6b7280",
-}
+from html import escape as _esc
 
 
 def build_html_report(all_results: dict, path: str) -> None:
@@ -91,10 +82,13 @@ def _row(rank: int, r: dict) -> str:
     rs    = f"{r['rs_pct']:.0f}" if r.get("rs_pct") is not None else "—"
     price = f"${r['price']:.2f}" if r.get("price") is not None else "—"
 
+    sector = _esc(str(r.get('sector', '—')))
+    ticker = _esc(str(r.get('ticker', '')))
+
     return (
         f"<tr>"
         f"<td>{rank}</td>"
-        f"<td><b>{r.get('ticker','')}</b></td>"
+        f"<td><b>{ticker}</b></td>"
         f"<td class='score'>{r.get('composite', 0):.1f}</td>"
         f"<td class='{cls}'>{sig}</td>"
         f"<td>{bk}</td>"
@@ -109,6 +103,6 @@ def _row(rank: int, r: dict) -> str:
         f"<td>{roe}</td>"
         f"<td>{rs}</td>"
         f"<td>{price}</td>"
-        f"<td>{r.get('sector', '—')}</td>"
+        f"<td>{sector}</td>"
         f"</tr>"
     )

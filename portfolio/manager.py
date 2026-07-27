@@ -30,7 +30,7 @@ from pathlib import Path
 import numpy as np
 
 from scanners.fundamental import score_fundamentals
-from scanners.technical   import score_technical, score_L_from_ranks, _score_L_from_pct
+from scanners.technical   import score_technical, score_L_from_ranks
 from scanners.market_gate import score_market
 from models.scorer        import build_composite_score, get_signal
 
@@ -77,7 +77,7 @@ def analyse_portfolio(
         scored.append(r)
 
     # ── RS cross-sectional ranking ────────────────────────────
-    scored = _apply_rs_ranks(scored)
+    scored = score_L_from_ranks(scored)
 
     # ── Recompute composites + generate actions ───────────────
     for r in scored:
@@ -109,7 +109,7 @@ def _score_position(pos: dict, market: dict,
         # CANSLIM sub-scores
         "C_score": 0, "A_score": 0, "N_score": 0,
         "S_score": 0, "L_score": 7.5, "I_score": 3.0,
-        "M_score": round(market.get("M_score", 4.0) / 5.0 * 5.0, 1),
+        "M_score": round(market.get("M_score", 4.0), 1),
         # Technicals
         "breakout_pct": None, "base_pivot": None,
         "dist_from_hi": None, "rs_pct": None,
@@ -169,21 +169,6 @@ def _score_position(pos: dict, market: dict,
         result["error"] = str(e)
 
     return result
-
-
-def _apply_rs_ranks(results: list[dict]) -> list[dict]:
-    """Cross-sectional RS ranking within the portfolio universe."""
-    moms = [r.get("_mom_raw", 0.0) for r in results if not r.get("error")]
-    if not moms:
-        return results
-    for r in results:
-        if r.get("error"):
-            continue
-        mom = r.get("_mom_raw", 0.0)
-        pct = sum(1 for v in moms if v <= mom) / len(moms) * 100
-        r["rs_pct"]  = float(pct)
-        r["L_score"] = _score_L_from_pct(pct)
-    return results
 
 
 # ── ACTION ENGINE ─────────────────────────────────────────────

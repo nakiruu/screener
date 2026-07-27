@@ -18,10 +18,7 @@ Uses XLK (tech sector ETF) as primary gauge with QQQ as secondary.
 
 import json
 import time
-import warnings
 from pathlib import Path
-
-warnings.filterwarnings("ignore")
 
 CACHE_FILE = Path("data/market_gate_cache.json")
 CACHE_TTL  = 3_600    # 1 hour (market conditions change intraday)
@@ -149,10 +146,12 @@ def _score_M(dist_days: int, trend_20: float,
     if dist_days <= 7 and not above_50ma and above_200ma:
         return 2.0, False, "Under pressure / below 50MA"
 
+    if dist_days >= 8:
+        if not above_50ma:
+            return 0.0, False, "Downtrend — avoid new longs"
+        return 1.0, False, "Distribution phase"
+
     if not above_50ma and not above_200ma:
         return 0.0, False, "Downtrend — avoid new longs"
-
-    if dist_days >= 8:
-        return 1.0, False, "Distribution phase"
 
     return 3.0, False, "Uncertain — caution"

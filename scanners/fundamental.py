@@ -19,10 +19,7 @@ All results are cached per-ticker in data/fund_cache/ (TTL: 24 hrs).
 
 import json
 import time
-import warnings
 from pathlib import Path
-
-warnings.filterwarnings("ignore")
 
 CACHE_DIR  = Path("data/fund_cache")
 CACHE_TTL  = 86_400   # 24 hours
@@ -65,7 +62,6 @@ def score_fundamentals(ticker: str, refresh: bool = False) -> dict:
         "sector":      None,
         "industry":    None,
         "method":      "unknown",
-        "M_score":     4.0,      # placeholder; overridden by market_gate
     }
 
     try:
@@ -106,8 +102,6 @@ def score_fundamentals(ticker: str, refresh: bool = False) -> dict:
         # ── A: Annual EPS CAGR + ROE ──────────────────────────
         eg      = info.get("earningsGrowth")      # trailing annual
         roe     = info.get("returnOnEquity")
-        fwd_eps = info.get("forwardEps")
-        trail_eps = info.get("trailingEps")
 
         # Estimate CAGR: use earningsGrowth as annual proxy
         if eg is not None:
